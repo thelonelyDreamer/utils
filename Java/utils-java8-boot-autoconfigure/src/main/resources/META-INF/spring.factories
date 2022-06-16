@@ -1,0 +1,2 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.felixwc.publish.utils.autoconfig.config.UtilsJava8AutoConfiguration
