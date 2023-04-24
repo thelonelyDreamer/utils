@@ -1,0 +1,6 @@
+server:
+  port: 12345
+spring:
+  jackson:
+    serialization:
+      fail-on-empty-beans: false

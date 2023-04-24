@@ -1,14 +1,5 @@
-# Compiled class file
-**/*.class
-
 # Log file
 **/*.log
-
-# BlueJ files
-**/*.ctxt
-
-# Mobile Tools for Java (J2ME)
-**/.mtj.tmp/
 
 # Package Files #
 **/*.jar
@@ -22,12 +13,6 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 
-# idea
-**/.idea/
-**/.iml
-**/out/
-**/target/
-
 # vscode
 **/.vscode/
 **/node_moudles/
@@ -38,11 +23,27 @@ hs_err_pid*
 !.vscode/extensions.json
 *.code-workspace
 
+# web modules
 **/dist/
+**/node_modules/
 
-node_modules
+
+# java
+**/*.jar
+**/*.war
+**/*.class
+
+
+# idea
+**/.idea/
+**/.iml
+**/out/
+**/target/
 
 
 # c c++
 **/*.exe
+**/*.out
+**/*.o
+**/*.S
 
